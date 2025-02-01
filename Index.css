@@ -1,0 +1,318 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+  background-color: white;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  color: black;
+  padding: 30px 30px;
+  font-family: sans-serif;
+}
+
+p {
+  font-size: large;
+  font-weight: bolder;
+  letter-spacing: 1px;
+}
+
+.sidebar {
+  display: none;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  font-size: 13px;
+}
+
+.H {
+  margin-right: 50px;
+  cursor: pointer;
+}
+
+.P {
+  margin-right: 50px;
+  cursor: pointer;
+}
+
+.G {
+  margin-right: 50px;
+  cursor: pointer;
+}
+
+.B {
+  margin-right: 50px;
+  cursor: pointer;
+}
+
+.S {
+  margin-right: 50px;
+  cursor: pointer;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.ball1 button {
+  background-color: rgba(236, 120, 3, 0.895);
+  width: 10px;
+  height: 10px;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  margin-left: 300px;
+  margin-top: 108px;
+}
+
+.ball2 button {
+  background-color: rgba(236, 120, 3, 0.895);
+  width: 10px;
+  height: 10px;
+  color: white;
+  border-radius: 50%;
+  margin-left: 100px;
+  margin-top: 308px;
+}
+
+.ball3 button {
+  background-color: rgba(236, 120, 3, 0.895);
+  width: 10px;
+  height: 10px;
+  color: white;
+  border-radius: 50%;
+  margin-left: 200px;
+  margin-top: 0px;
+}
+
+.ball4 button {
+  background-color: rgba(236, 120, 3, 0.895);
+  width: 10px;
+  height: 10px;
+  color: white;
+  border-radius: 50%;
+  margin-left: 200px;
+}
+
+.ball5 button {
+  background-color: rgba(236, 120, 3, 0.895);
+  width: 10px;
+  height: 10px;
+  color: white;
+  border-radius: 50%;
+  margin-left: 200px;
+}
+
+.ball6 button {
+  background-color: rgba(236, 120, 3, 0.895);
+  width: 10px;
+  height: 10px;
+  color: white;
+  border-radius: 50%;
+  margin-left: 200px;
+}
+
+.ball7 button {
+  background-color: rgba(236, 120, 3, 0.895);
+  width: 10px;
+  height: 10px;
+  color: white;
+  border-radius: 50%;
+  margin-left: 200px;
+}
+
+.ball8 button {
+  background-color: rgba(236, 120, 3, 0.895);
+  width: 10px;
+  height: 10px;
+  color: white;
+  border-radius: 50%;
+  margin-left: 200px;
+}
+
+.ballp {
+  display: none;
+}
+
+#Octopus {
+  scale: 0.38;
+  margin-left: -550px;
+  margin-top: -700px;
+  position: absolute;
+}
+
+.one-divi {
+  margin-top: 170px;
+  margin-left: 690px;
+  color: black;
+  line-height: 30px;
+  font-family: sans-serif;
+  text-align: right;
+  width: 400px;
+  position: relative;
+}
+
+h2 {
+  margin-bottom: 20px;
+  letter-spacing: 2px;
+}
+
+.Lorem {
+  font-size: small;
+  color: grey;
+}
+
+.PUR {
+  margin-top: 30px;
+  border: 3px solid black;
+  padding: 15px 40px;
+  background-color: transparent;
+  cursor: pointer;
+  transition: color, background-color, border-color, 0.5s ease ;
+}
+
+.PUR:active {
+  color: white;
+  background-color: black;
+  border-color: white;
+}
+
+.Second-sec {
+  background-color: rgb(25, 25, 25);
+  margin-top: 200px;
+  width: 100%;
+  height: 700px;
+  position: absolute;
+}
+
+.Seah {
+  scale: 1;
+  height: 700px;
+  margin-left: 600px;
+  margin-top: 0px;
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  position: relative;
+}
+
+.IMM {
+  margin-bottom: 20px;
+  letter-spacing: 2px;
+  color: white;
+}
+
+.LoremR {
+  font-size: small;
+  color: white;
+}
+
+.PURC {
+  margin-top: 30px;
+  border: 3px solid white;
+  padding: 15px 40px;
+  color: white;
+  background-color: transparent;
+  cursor: pointer;
+  transition: color, background-color, border-color, 0.5s ease ;
+}
+
+.PURC:active {
+  color: white;
+  background-color: black;
+  border-color: white;
+}
+
+.sec-divi {
+  margin-top: -450px;
+  margin-left: 400px;
+  color: black;
+  line-height: 30px;
+  font-family: sans-serif;
+  text-align: left;
+  width: 400px;
+  position: absolute;
+}
+
+.Third-sec {
+  margin-top: 1000px;
+  width: 100%;
+  height: 700px;
+  position: absolute;
+}
+
+.whale {
+  scale: 0.4;
+  margin-left: -400px;
+  margin-top: -250px;
+}
+
+.thir-divi {
+  margin-top: -450px;
+  margin-left: 690px;
+  color: black;
+  line-height: 30px;
+  font-family: sans-serif;
+  text-align: right;
+  width: 400px;
+  position: relative;
+}
+
+.Fourth-sec {
+  background-color: rgb(25, 25, 25);
+  margin-top: 1500px;
+  width: 100%;
+  height: 700px;
+  position: absolute;
+}
+
+.IMM {
+  margin-bottom: 20px;
+  letter-spacing: 2px;
+  color: white;
+}
+
+.LoremR {
+  font-size: small;
+  color: white;
+}
+
+.PURC {
+  margin-top: 30px;
+  border: 3px solid white;
+  padding: 15px 40px;
+  color: white;
+  background-color: transparent;
+  cursor: pointer;
+  transition: color, background-color, border-color, 0.5s ease ;
+}
+
+.PURC:active {
+  color: white;
+  background-color: black;
+  border-color: white;
+}
+
+.four-divi {
+  margin-top: -400px;
+  margin-left: 400px;
+  color: black;
+  line-height: 30px;
+  font-family: sans-serif;
+  text-align: left;
+  width: 400px;
+}
+
+.jelly {
+  scale: 1.05;
+   margin-left: 700px;
+   margin-top: 24px;
+}
